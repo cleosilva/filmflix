@@ -1,0 +1,20 @@
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.btn-home{
+  margin-top: 20px;
+}
+
+.btn-home:hover{
+  background-color: #d31a27;
+  color: white;
+}
