@@ -1,0 +1,10 @@
+<section *ngIf="detail$ | async as detail" class="details">
+  <img src="https://image.tmdb.org/t/p/w300/{{detail.poster_path}}" alt="">
+  <h1 mat-h1>{{detail.name}}</h1>
+  <p mat-body-2>{{ detail.overview }}</p>
+  <mat-chip-list>
+    <mat-chip color="accent" selected>{{ detail.vote_average }}</mat-chip>
+  </mat-chip-list>
+  <img src="https://image.tmdb.org/t/p/w300/{{detail.backdrop_path}}" alt="">
+</section>
+

@@ -56,7 +56,7 @@ export class ProfileComponent implements OnInit {
         });
       },
       error: () => {
-        this.snackBar.open('Um error ocorreu!', 'Fechar', {
+        this.snackBar.open('Um erro ocorreu!', 'Fechar', {
           duration: 3000,
         });
       },
